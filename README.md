@@ -5,9 +5,9 @@ Plus formellement, étant donné un tableau Q de N entiers signés, le sous-tabl
 ## Exemple :
 
                                                     Étant donné le tableau suivant
-                                         -1	2	-3	6	-1	8	-10	-5
+                                   -1 	2	-3	6	-1	8	-10	-5
                                                     Le sous tableau maximal est
-                                                  6	-1	8
+                                        6	  -1	8
 ## Algorithmes :
 Il existe de nombreux algorithmes pour résoudre ce problème. Le plus efficace est celui de Kadane qui a une complexité en O(N). Malheureusement il n'est pas parallélisable. 
 Nous allons nous intéresser à une solution proposée par Perumalla et al. en 1995 (voir le pdf). 
